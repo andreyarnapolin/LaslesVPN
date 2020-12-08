@@ -1,0 +1,28 @@
+.header {
+  &__items {
+  }
+  &__item {
+    margin: 0 20px 0 20px;
+  }
+  &__account {
+    justify-content: flex-end;
+  }
+  &__login {
+    display: block;
+    font: 500 16px/19px $rubik;
+    color: $black;
+    padding-top: 13px;
+  }
+  &__register {
+    font: 500 16px/19px $rubik;
+    color: $red;
+    display: block;
+    border: 1px solid #f53855;
+    border-radius: 50px;
+	 padding: 13px 45px;
+	 
+  }
+  &__link {
+    white-space: nowrap;
+  }
+}
