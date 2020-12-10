@@ -29,3 +29,9 @@ a {
 		color: inherit;
 	}
 }
+
+button{
+	&:focus{
+		outline: none;
+	}
+}

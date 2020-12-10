@@ -12,11 +12,12 @@
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			variableWidth: true,
-			arrows: false,
+			arrows: true,
 			dots: true,
+			appendDots: '.slick-nav',
 			draggable: true,
-			prevArrow: $('.prev'),
-			nextArrow: $('.next'),
+			prevArrow: $('.slick-prev'),
+			nextArrow: $('.slick-next'),
 		});
 	});
 })(jQuery);
